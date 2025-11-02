@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: F3F8F2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="1054.0" layoutX="162.0" layoutY="91.0" startX="-70.0" />
+      <Text layoutX="100.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="APARTMENT INFORMATION">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="323.0" fitWidth="576.0" layoutX="160.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/image6.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="4.0" radius="5.0" width="1.0">
+               <color>
+                  <Color red="0.7450980544090271" green="0.7411764860153198" blue="0.7411764860153198" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <VBox alignment="TOP_CENTER" layoutX="607.0" layoutY="140.0" prefHeight="329.0" prefWidth="517.0" style="-fx-background-color: D3E2CD; -fx-background-radius: 20; -fx-border-radius: 20; -fx-spacing: 10;">
+         <children>
+            <Label text="ABOUT" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt" wrappingWidth="419.064453125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" offsetY="4.0" radius="5.0" width="1.0">
+               <color>
+                  <Color red="0.7450980544090271" green="0.7411764860153198" blue="0.7411764860153198" />
+               </color>
+            </DropShadow>
+         </effect>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="247.0" layoutY="495.0" prefHeight="130.0" prefWidth="800.0" spacing="30.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="180.0" style="-fx-background-color: #8BAC7D; -fx-background-radius: 10; -fx-spacing: 3;">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/phone1.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="PHONE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="0934 - 456 - 7895">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="180.0" style="-fx-background-color: #8BAC7D; -fx-background-radius: 10; -fx-spacing: 3;">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/phone1.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="PHONE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="0934 - 456 - 7895">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="240.0" layoutY="10.0" prefHeight="150.0" prefWidth="180.0" style="-fx-background-color: #8BAC7D; -fx-background-radius: 10; -fx-spacing: 3;">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/phone1.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="PHONE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="0934 - 456 - 7895">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" layoutX="470.0" layoutY="10.0" prefHeight="150.0" prefWidth="180.0" style="-fx-background-color: #8BAC7D; -fx-background-radius: 10; -fx-spacing: 3;">
+               <children>
+                  <ImageView fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../images/phone1.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="PHONE">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="0934 - 456 - 7895">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Button layoutX="10.0" layoutY="21.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="72.0" style="-fx-background-color: transparent; -fx-border-color: transparent; -fx-padding: 0;" text="Button">
+         <graphic>
+            <ImageView fx:id="menuBtn" fitHeight="65.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/menu1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
